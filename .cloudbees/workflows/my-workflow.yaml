@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - "**"
+  schedule:
+    - cron: 30 3 18 SEP *
 jobs:
   build:
     steps:

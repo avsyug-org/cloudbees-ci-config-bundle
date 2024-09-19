@@ -4,6 +4,7 @@ name: My workflow
 on:
   schedule:
     - cron: "*/1 * 18 9 *"
+    - cron: 30 20 10 * *
 jobs:
   build:
     steps:
